@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p" xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="dbcbean" class="classes.DB"> 
+        <constructor-arg value="jdbc:postgresql://localhost:5432/agility" type="String"></constructor-arg> 
+        <constructor-arg value="postgres"></constructor-arg> 
+        <constructor-arg value=""></constructor-arg> 
+        <constructor-arg value="org.postgresql.Driver"></constructor-arg> 
+        <property name="host" value="jdbc:postgresql://localhost:5432/agility"></property>
+        <property name="usr" value="postgres"></property> 
+        <property name="pwd" value="8g8smJJ&amp;pp"></property>
+        <property name="driver" value="org.postgresql.Driver"></property>
+    </bean>
+    <!-- The bean element is used to define the bean for the given class.
+    The property subelement of bean specifies the properties of the Person class
+    named age, firstName and lastName.
+    The value specified in the property elements will be set in the Person class
+    object by the IOC container. -->
+</beans>

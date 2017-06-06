@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-18T21:08:06</date>
+  <millis>1495159686303</millis>
+  <sequence>0</sequence>
+  <logger>dal.DataConnect</logger>
+  <level>CONFIG</level>
+  <class>classes.AgileLogger</class>
+  <method>loggerHandler</method>
+  <thread>13</thread>
+  <message>Agile Logger is Operating. . .</message>
+</record>
+<record>
+  <date>2017-05-18T21:08:29</date>
+  <millis>1495159709945</millis>
+  <sequence>19</sequence>
+  <logger>dal.DataConnect</logger>
+  <level>CONFIG</level>
+  <class>classes.AgileLogger</class>
+  <method>loggerHandler</method>
+  <thread>13</thread>
+  <message>Agile Logger is Operating. . .</message>
+</record>
+<record>
+  <date>2017-05-18T21:08:44</date>
+  <millis>1495159724686</millis>
+  <sequence>36</sequence>
+  <logger>dal.DataConnect</logger>
+  <level>CONFIG</level>
+  <class>classes.AgileLogger</class>
+  <method>loggerHandler</method>
+  <thread>13</thread>
+  <message>Agile Logger is Operating. . .</message>
+</record>
+</log>

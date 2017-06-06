@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-04-06T15:20:42</date>
+  <millis>1491510042974</millis>
+  <sequence>0</sequence>
+  <logger>dal.DataConnect</logger>
+  <level>CONFIG</level>
+  <class>classes.AgileLogger</class>
+  <method>loggerHandler</method>
+  <thread>1</thread>
+  <message>Agile Logger is Operating. . .</message>
+</record>
+<record>
+  <date>2017-04-06T15:20:43</date>
+  <millis>1491510043560</millis>
+  <sequence>1</sequence>
+  <logger>dal.DataConnect</logger>
+  <level>SEVERE</level>
+  <class>dal.DataConnect</class>
+  <method>insertToDo</method>
+  <thread>1</thread>
+  <exception>
+    <message>org.postgresql.util.PSQLException: No value specified for parameter 5.</message>
+    <frame>
+      <class>org.postgresql.core.v3.SimpleParameterList</class>
+      <method>checkAllParametersSet</method>
+      <line>216</line>
+    </frame>
+    <frame>
+      <class>org.postgresql.core.v3.QueryExecutorImpl</class>
+      <method>execute</method>
+      <line>244</line>
+    </frame>
+    <frame>
+      <class>org.postgresql.jdbc2.AbstractJdbc2Statement</class>
+      <method>execute</method>
+      <line>555</line>
+    </frame>
+    <frame>
+      <class>org.postgresql.jdbc2.AbstractJdbc2Statement</class>
+      <method>executeWithFlags</method>
+      <line>417</line>
+    </frame>
+    <frame>
+      <class>org.postgresql.jdbc2.AbstractJdbc2Statement</class>
+      <method>execute</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>dal.DataConnect</class>
+      <method>insertToDo</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>tc.TraditionalConnectTest</class>
+      <method>main</method>
+      <line>23</line>
+    </frame>
+  </exception>
+</record>
+</log>
